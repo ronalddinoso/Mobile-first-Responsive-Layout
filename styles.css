@@ -65,14 +65,19 @@ a {
   padding: 10px 15px;
 }
 
+.feat-img {
+	width: 300px;
+	float: right;
+	margin-left: 25px; 
+	}
+
+.feat-img2 {
+	width: 100%;
+	float: top;
+	}	
+
 /* ---- Layout Containers ---- */
 
-
-.container1 {
-	padding-left: 1em;
-	padding-right: 1em;
-	text-align: center;
-}
 
 .main-header {
 	padding-top: 1.5em;
@@ -101,81 +106,8 @@ a {
   Media Queries
 ==================================== */
 
+
 @media (min-width: 1024px) {
-
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
-
-	.container-body {
-		width: 80%;
-		max-width: 1150px;
-	}
-
-	
-	.primary col{
-		width: 50px;
-	  }
-	  
-	  .secondary col,
-	  .third col{
-		width: 10%;
-	  
-	  }
-
-	
-	.name {
-		font-size: 1.25em;
-		margin-right: 10em;
-	}
-
-	.main-nav li {
-		margin-right: 25px;
-
-	}
-
-	.main-header {
-		margin: 0;
-	}
-
-	.name,
-	.main-nav, 
-	.main-nav li {
-	display: inline-block;
-	}
-
-	.main-footer {
-		margin: 0;
-
-	}
-
-/* .col {    
-  display: inline-block;
-  width: 50%; 
-  margin-right: -4px;
-  vertical-align: top;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.feat-img {
-  width: 300px;
-  float: right;
-  margin-left: 25px; 
-} */
-
-.primary col{
-	width: 10px;
-
-}
-
-}
-
-@media (min-width: 768px) {
-
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
 
 	.container {
 		width: 80%;
@@ -183,46 +115,55 @@ a {
 		margin: 0 auto;
 	}
 
+	.wrap {
+		min-height: calc(100vh - 89px);
+	}
+
 	.name {
 		font-size: 1.25em;
+		margin-right: 10em;
+
 	}
 
 
-
+	.name,
 	.main-nav, 
 	.main-nav li {
 	display: inline-block;
 	}
 
+	.main-nav li {
+		margin-right: 25px;
 
+	}
 
 	.col {    
 	display: inline-block;
-	width: 50%; 
+	width: 33.33%; 
 	margin-right: -4px;
 	vertical-align: top;
 	padding-left: 1em;
 	padding-right: 1em;
 	}
 
-	.feat-img {
-	width: 300px;
-	float: right;
-	margin-left: 25px; 
-	}
-
-	.feat-img2 {
-	width: 300px;
-	float: top;
-	}
-}
-
-@media (min-width: 320px) {
 	.feat-img2 {
 		width: 100%;
-	}
+		float: top;
+		}	
 
+
+
+@media (min-width: 768px) {
+	
+	.col {
+	width: 50%; 
+	}
 }
+
+
+
+
+
 /* ================================= 
   Clear Fix
 ==================================== */

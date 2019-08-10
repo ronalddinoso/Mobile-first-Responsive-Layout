@@ -1,0 +1,94 @@
+/* --------------------------
+  Main Styles
+--------------------------- */
+
+
+.main-header,
+.nav {
+	display: flex;
+    flex-direction: column;
+
+}
+
+
+.name {
+	font-size: 1.25em;
+}
+
+.main-nav li {
+	font-size: .95em;
+	text-transform: uppercase;
+}
+
+.name {
+	width: 110px;
+    align-self: center;
+    text-align: center;
+}
+
+.nav {
+	margin-top: 1.5em;
+}
+
+.nav a {
+	display: block;
+	color: #797e83;
+	font-size: 1.125em;
+	font-weight: 300;
+	text-align: center;
+	padding: .4em;
+	border-bottom: 1px solid #ebecec;
+}
+
+.nav a:hover {
+	color: #0b0b0b;
+	border-bottom-color: #52bab3;
+}
+
+/* --------------------------
+  Media Queries
+--------------------------- */
+
+@media (min-width: 769px) {
+	.main-header {
+        height: 200px;
+        margin: 0 10em 0 10em;
+		justify-content: flex-end;
+	}
+	.name {
+		width: 140px;
+	}
+	.nav {
+		margin-top: 3em;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.nav a {
+		border-bottom-color: transparent;
+	}
+}
+
+@media (min-width: 1024px) {
+	.main-header {
+        flex-direction: row;
+        margin: 0 7em;
+    }
+	.name {
+		margin-right: auto;
+	}
+	.nav {
+		margin-top: 0;
+        align-self: center;
+        margin-left: auto;
+	}
+	.nav li {
+		margin-left: .65em;
+		margin-right: .65em;
+	}
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

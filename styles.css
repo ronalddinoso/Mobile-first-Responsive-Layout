@@ -12,7 +12,7 @@ body {
 	color: #3a3a3a;
 }
 
-p {
+.container p {
 	font-size: .95em;
 	margin-bottom: 1.5em;
 }
@@ -20,7 +20,7 @@ p {
 h2,
 h3,
 a {
-	color: #093a58;
+	color: #000000;
 }
 
 h2,
@@ -32,31 +32,35 @@ a {
 	text-decoration: none;
 }
 
+.lightgrey {
+	background: rgb(230, 229, 229);
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
-/* ---- Navigation ---- */
 
-.name {
-	font-size: 1.25em;
-	margin-right: 13em;
-	margin-left: 100px;
-
+/* ---- p-intro ---- */
+.p-intro {
+	text-align: left;
 }
 
-.main-nav li {
-	font-size: .95em;
-	text-transform: uppercase;
-	margin-left: 50px;
+
+/* ---- container ---- */
+
+.container {
+	text-align: center;
 }
+
 
 /* ---- feat img ---- */
 
 .feat-img {
 	width: 300px;
 	float: right;
-	margin-left: 25px; 
+	margin-left: 25px;
+	margin-bottom: 40px; 
 	}
 
 .feat-img2 {
@@ -68,27 +72,28 @@ a {
 
 
 
-.main-header {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	background: #c7c4c4;
-	margin-bottom: 30px;
-	width: 100%;
+.container {
+	width: 80%;
+	max-width: 1150px;
+	margin: 0 auto;
 }
+
+
 
 .main-footer {
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	background: #c7c4c4;
 	margin-bottom: 30px;
 }
 
 .normal-col {
   text-align: center;
+  margin-top: 25px;
 }
 
 .contact-col {
   text-align: center;
+  margin: 0 5em 0 5em;
 
 }
 
@@ -100,33 +105,23 @@ a {
 
 @media (min-width: 320px) {
 
-	.container {
-		width: 80%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
-
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
-
-	.name {
-		font-size: 1.25em;
-		margin-right: 10em;
-
-	}
-
-	.name,
-	.main-nav, 
-	.main-nav li {
-	display: inline-block;
-	}
-
-	
 
 	.col {    
 	display: inline-block;
 	width: 100%; 
+	margin-right: -4px;
+	vertical-align: top;
+	padding-left: 5em;
+	padding-right: 5em;
+	}
+}
+
+@media (min-width: 720px) {
+
+
+	.col {    
+	display: inline-block;
+	width: 50%; 
 	margin-right: -4px;
 	vertical-align: top;
 	padding-left: 1em;
@@ -134,68 +129,10 @@ a {
 	}
 }
 
-	@media (min-width: 720px) {
-
-		.container {
-			width: 80%;
-			max-width: 1150px;
-			margin: 0 auto;
-		}
-	
-		.wrap {
-			min-height: calc(100vh - 89px);
-		}
-	
-		.name {
-			font-size: 1.25em;
-			margin-right: 10em;
-	
-		}
-	
-		.name,
-		.main-nav, 
-		.main-nav li {
-		display: inline-block;
-		}
-	
-		
-	
-		.col {    
-		display: inline-block;
-		width: 50%; 
-		margin-right: -4px;
-		vertical-align: top;
-		padding-left: 1em;
-		padding-right: 1em;
-		}
-	}
-
 
 @media (min-width: 1024px) {
 
-	.container {
-		width: 80%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
 
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
-
-	.name {
-		font-size: 1.25em;
-		margin-right: 10em;
-
-	}
-
-	.name,
-	.main-nav, 
-	.main-nav li {
-	display: inline-block;
-	}
-
-	
 
 	.col {    
 	display: inline-block;

@@ -32,9 +32,10 @@ a {
 	text-decoration: none;
 }
 
-.lightgrey {
+.header {
 	background: rgb(230, 229, 229);
 }
+
 
 /* ================================= 
   Base Layout Styles
@@ -47,17 +48,10 @@ a {
 }
 
 
-/* ---- container ---- */
-
-.container {
-	text-align: center;
-}
-
-
 /* ---- feat img ---- */
 
 .feat-img {
-	width: 300px;
+	width: 100%;
 	float: right;
 	margin-left: 25px;
 	margin-bottom: 40px; 
@@ -70,20 +64,12 @@ a {
 
 /* ---- Layout Containers ---- */
 
-
-
 .container {
 	width: 80%;
 	max-width: 1150px;
 	margin: 0 auto;
-}
+	text-align: center;
 
-
-
-.main-footer {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	margin-bottom: 30px;
 }
 
 .normal-col {
@@ -101,23 +87,14 @@ a {
   Media Queries
 ==================================== */
 
-
-
-@media (min-width: 320px) {
-
-
-	.col {    
-	display: inline-block;
-	width: 100%; 
-	margin-right: -4px;
-	vertical-align: top;
-	padding-left: 5em;
-	padding-right: 5em;
-	}
-}
-
 @media (min-width: 720px) {
 
+	.feat-img {
+		width: 300px;
+		float: right;
+		margin-left: 25px;
+		margin-bottom: 40px; 
+		}
 
 	.col {    
 	display: inline-block;
@@ -129,10 +106,14 @@ a {
 	}
 }
 
-
 @media (min-width: 1024px) {
 
-
+	.feat-img {
+		width: 300px;
+		float: right;
+		margin-left: 25px;
+		margin-bottom: 40px; 
+		}
 
 	.col {    
 	display: inline-block;
@@ -145,7 +126,6 @@ a {
 }
 
 
-	
 
 /* ================================= 
   Clear Fix

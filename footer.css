@@ -2,7 +2,6 @@
   Main Styles
 --------------------------- */
 
-
     .main-footer,
     .footer {
         display: flex;
@@ -10,20 +9,17 @@
 
     }
 
-
     .main-footer {
         padding-top: 1.5em;
         padding-bottom: 1.5em;
         margin-bottom: 30px;
     }
 
-
     .footer-logo {
         float: left;
         font-size: 1em;
 
     }
-
 
     .footer {
         margin-top: 1.5em;
@@ -52,7 +48,6 @@
         font-size: 1em;
 
     }
-
 
 /* --------------------------
   Media Queries

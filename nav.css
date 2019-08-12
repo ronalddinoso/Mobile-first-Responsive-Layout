@@ -2,9 +2,6 @@
   Main Styles
 --------------------------- */
 
-
-
-
 .main-header,
 .nav {
 	display: flex;
@@ -22,8 +19,6 @@
 	background-color: #ffffff;
 
 }
-
-
 
 .name {
 	font-size: 1.25em;
@@ -82,9 +77,6 @@
 		padding: 0 25px;
 	}
 }
-
-
-
 
 .clearfix::after {
     content: "";

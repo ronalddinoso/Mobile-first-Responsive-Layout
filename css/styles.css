@@ -58,7 +58,7 @@ a {
 	}
 
 .feat-img2 {
-	width: 100%;
+	max-width: 100%;
 	float: top;
 	}	
 
@@ -87,7 +87,7 @@ a {
   Media Queries
 ==================================== */
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
 
 	.feat-img {
 		width: 300px;
@@ -97,12 +97,12 @@ a {
 		}
 
 	.col {    
-	display: inline-block;
-	width: 50%; 
-	margin-right: -4px;
-	vertical-align: top;
-	padding-left: 1em;
-	padding-right: 1em;
+		display: inline-block;
+		width: 50%; 
+		margin-right: -4px;
+		vertical-align: top;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 }
 

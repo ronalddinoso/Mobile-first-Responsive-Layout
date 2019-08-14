@@ -2,6 +2,7 @@
   Base Styles
 ==================================== */
 
+
 * {
 	box-sizing: border-box;
 }
@@ -43,10 +44,10 @@ a {
 
 
 /* ---- p-intro ---- */
+
 .p-intro {
 	text-align: left;
 }
-
 
 /* ---- feat img ---- */
 
@@ -55,12 +56,12 @@ a {
 	float: right;
 	margin-left: 25px;
 	margin-bottom: 40px; 
-	}
+}
 
 .feat-img2 {
 	max-width: 100%;
 	float: top;
-	}	
+}	
 
 /* ---- Layout Containers ---- */
 
@@ -69,7 +70,6 @@ a {
 	max-width: 1150px;
 	margin: 0 auto;
 	text-align: center;
-
 }
 
 .normal-col {
@@ -80,40 +80,40 @@ a {
 .contact-col {
   text-align: center;
   margin: 0 5em 0 5em;
-
 }
 
 /* ================================= 
   Media Queries
 ==================================== */
 
+
 @media (min-width: 768px) {
 
-	.feat-img {
-		width: 300px;
-		float: right;
-		margin-left: 25px;
-		margin-bottom: 40px; 
-		}
+.feat-img {
+	width: 300px;
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 40px; 
+}
 
-	.col {    
-		display: inline-block;
-		width: 50%; 
-		margin-right: -4px;
-		vertical-align: top;
-		padding-left: 1em;
-		padding-right: 1em;
-	}
+.col {    
+	display: inline-block;
+	width: 50%; 
+	margin-right: -4px;
+	vertical-align: top;
+	padding-left: 1em;
+	padding-right: 1em;
+}
 }
 
 @media (min-width: 1024px) {
 
 	.feat-img {
-		width: 300px;
-		float: right;
-		margin-left: 25px;
-		margin-bottom: 40px; 
-		}
+	width: 300px;
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 40px; 
+}
 
 	.col {    
 	display: inline-block;
@@ -126,10 +126,10 @@ a {
 }
 
 
-
 /* ================================= 
   Clear Fix
 ==================================== */
+
 
 .clearfix::after {
   content: "";

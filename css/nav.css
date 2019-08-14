@@ -2,6 +2,7 @@
   Main Styles
 --------------------------- */
 
+
 .main-header,
 .nav {
 	display: flex;
@@ -31,9 +32,11 @@
 	border-bottom-color: #ffffff;
 }
 
+
 /* --------------------------
   Media Queries
 --------------------------- */
+
 
 @media (min-width: 768px) {
 	.main-header {
